@@ -8,7 +8,6 @@ flowchart TD
     classDef db stroke:#6a5acd
 
     H["Fenyves et al. (2020)"]:::func --> O["Atanas et al. (2023)"]:::func
-    O --> P["Randi et al. (2023)"]:::func    
     K["Witvliet et al. (2021)"]:::dev
     E["Pereira et al. (2015)"]:::es --> F["Bentley et al. (2016)"]:::es
 
@@ -35,5 +34,13 @@ flowchart TD
     L --> NP
     K --> NP
     D --> NP
+    A --> P["Randi et al. (2023)"]:::func
+    L --> P
+    N --> P
+    K --> P
+    NP --> P
+    F --> P
 
+    
+    
 ```
