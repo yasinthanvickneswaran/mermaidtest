@@ -21,7 +21,7 @@
 ```
 
 ```mermaid
-flowchart TB
+flowchart TD
     c1-->a2
     subgraph Functional
     a1-->a2
