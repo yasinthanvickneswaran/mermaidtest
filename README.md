@@ -24,7 +24,6 @@ flowchart TD
     A --> J["Brittin et al. (2021)"]:::anat
     A --> F
     D --> F
-    subgraph Databases
     DB1["WormWiring"] --> E
-    end
+
 ```
