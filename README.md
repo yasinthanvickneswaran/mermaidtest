@@ -18,6 +18,7 @@ flowchart TD
 
     A(["White et al. (1986)"]):::anat --> B["Durbin (1987)"]:::anat
     A1["Albertson & Thompson (1976)"]:::anat --> A
+    A1 --> P1["Cook et al. (2020)"]:::anat
     A  --> A2["Hall & Russell (1991)"]:::anat
     A --> D["Varshney et al.(2011)"]:::anat
     B --> D
