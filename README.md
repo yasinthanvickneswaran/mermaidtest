@@ -1,6 +1,5 @@
 ```mermaid
 flowchart TD
-    c1-->a2
     subgraph Functional
     H["Fenyves et al. (2020)"] --> O["Atanas et al. (2023)"]
     O --> P["Randi et al. (2023)"]
@@ -23,6 +22,8 @@ flowchart TD
     A --> G["Cook et al. (2019)"]
     A --> I["Cook et al. (2020)"]
     A --> J["Brittin et al. (2021)"]
+    A --> F
+    D --> F
     end
     subgraph Databases
     DB1["WormWiring"] --> E
