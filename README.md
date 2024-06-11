@@ -10,7 +10,7 @@ flowchart TD
     A1[<a href='https://github.com/yasinthanvickneswaran/ConnectomeToolbox/blob/main/docs/Albertson_Thompson_1976.md' >Albertson & Thomson</a>]:::anat
     end
     subgraph 1980-1990
-    A & B
+    A[<a href='https://github.com/yasinthanvickneswaran/ConnectomeToolbox/blob/main/docs/White_1986.md' >White</a>]:::anat & B[<a href='https://github.com/yasinthanvickneswaran/ConnectomeToolbox/blob/main/docs/Durbin_1987.md' >Durbin RM</a>]:::anat
     end
     subgraph 1990-2000
     A2
@@ -36,7 +36,7 @@ flowchart TD
     L --> M["Yemini et al. (2021)"]:::gene
     M --> N["Beets et al. (2023)"]:::gene
 
-    A(["White et al. (1986)"]):::anat --> B["Durbin (1987)"]:::anat
+    A --> B
     A1 --> A
     A1 --> I
     A  --> A2["Hall & Russell (1991)"]:::anat
