@@ -16,15 +16,11 @@ flowchart TD
     end
 
     subgraph 2010-2020
-    D
-    E
-    E1
-    E2
-    F
-    G
-    H
-    I
-    end    
+    D & E & E1 & E2 & F & G & H & I
+    end
+
+    subgraph 2020-2030
+    J & K & L & M & N & O & P & NP     
 
 
     E --> H["Fenyves et al. (2020)"]:::func
