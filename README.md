@@ -29,5 +29,11 @@ flowchart TD
     A --> F
     D --> F
     DB1["WormWiring"]:::db --> E
+    A --> NP["Ripoll-Sanchez et al. (2023)"]:::es
+    A1 --> NP
+    F --> NP
+    L --> NP
+    K --> NP
+    D --> NP
 
 ```
