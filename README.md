@@ -15,14 +15,13 @@ flowchart TD
     L --> M["Yemini et al. (2021)"]
     M --> N["Beets et al. (2023)"]
     end
-    subgraph Anatomical
-    A["White et al. (1986)"]:::someclass --> B["Durbin (1987)"]
-    classDef someclass fill:#f96
-    A --> D["Varshney et al.(2011)"]
+    A["White et al. (1986)"]:::anatomical --> B["Durbin (1987)"]:::anatomical
+    classDef anatomical fill:#f93
+    A --> D["Varshney et al.(2011)"]:::anatomical
     B --> D
-    A --> G["Cook et al. (2019)"]
-    A --> I["Cook et al. (2020)"]
-    A --> J["Brittin et al. (2021)"]
+    A --> G["Cook et al. (2019)"]:::anatomical
+    A --> I["Cook et al. (2020)"]:::anatomical
+    A --> J["Brittin et al. (2021)"]:::anatomical
     A --> F
     D --> F
     end
