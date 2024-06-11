@@ -1,6 +1,4 @@
-```mermaid
-%%{init: { 'logLevel': 'debug', 'theme': 'base', 'timeline': {'disableMulticolor': true}}}%%
-  timeline
+
     title Timeline of C.Elegans Connectomics Data
     1986 : White A
     1987 : Durbin B
@@ -18,7 +16,7 @@
     2023 : Beets N
          : Atanas O
          : Randi P
-```
+
 
 ```mermaid
 flowchart TD
