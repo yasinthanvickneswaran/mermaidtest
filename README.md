@@ -1,23 +1,3 @@
-
-    title Timeline of C.Elegans Connectomics Data
-    1986 : White A
-    1987 : Durbin B
-    2009 : Altun C
-    2011 : Varshney D
-    2015 : Pereira E
-    2016 : Bentley F
-    2019 : Cook G
-    2020 : Fenyves H
-         : Cook I
-    2021 : Brittin J
-         : Witvliet K
-         : Taylor L
-         : Yemini M
-    2023 : Beets N
-         : Atanas O
-         : Randi P
-
-
 ```mermaid
 flowchart TD
     c1-->a2
@@ -39,8 +19,10 @@ flowchart TD
     subgraph Anatomical
     A["White et al. (1986)"] --> B["Durbin (1987)"]
     A --> D["Varshney et al.(2011)"]
+    B --> D
     A --> G["Cook et al. (2019)"]
     A --> I["Cook et al. (2020)"]
     A --> J["Brittin et al. (2021)"]
+    DB1["Wormwiring"] --> E
     end
 ```
