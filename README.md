@@ -23,6 +23,8 @@ flowchart TD
     A --> G["Cook et al. (2019)"]
     A --> I["Cook et al. (2020)"]
     A --> J["Brittin et al. (2021)"]
-    DB1["Wormwiring"] --> E
+    end
+    subgraph Databases
+    DB1["WormWiring"] --> E
     end
 ```
