@@ -38,6 +38,4 @@ flowchart TB
     subgraph Anatomical
     "White et al. (1986)" --> "Varshney et al.(2011)" --> "Cook et al. (2019)"
     end
-    Anatomical --> Developmental
-    
 ```
