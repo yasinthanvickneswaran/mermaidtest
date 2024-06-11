@@ -17,8 +17,8 @@ flowchart TD
     M --> N["Beets et al. (2023)"]:::gene
 
     A(["White et al. (1986)"]):::anat --> B["Durbin (1987)"]:::anat
-    A1["Albertson & Thompson (1976)"] --> A
-    A  --> A2["Hall & Russell (1991)"]
+    A1["Albertson & Thompson (1976)"]:::anat --> A
+    A  --> A2["Hall & Russell (1991)"]:::anat
     A --> D["Varshney et al.(2011)"]:::anat
     B --> D
     A --> G["Cook et al. (2019)"]:::anat
