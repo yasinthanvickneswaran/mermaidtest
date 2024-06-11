@@ -3,10 +3,11 @@ flowchart TD
     classDef anat stroke:#f00
     classDef gene stroke:#0f0
     classDef es stroke:#00f
+    classDef func stroke:#ee82ee
 
     subgraph Functional
-    H["Fenyves et al. (2020)"] --> O["Atanas et al. (2023)"]
-    O --> P["Randi et al. (2023)"]
+    H["Fenyves et al. (2020)"]:::func --> O["Atanas et al. (2023)"]:::func
+    O --> P["Randi et al. (2023)"]:::func
     end
     subgraph Developmental
     K["Witvliet et al. (2021)"]
