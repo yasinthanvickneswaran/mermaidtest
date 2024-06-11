@@ -7,18 +7,21 @@ flowchart TD
     classDef dev stroke:#3cb371
     classDef db stroke:#6a5acd
 
-    subgraph 1970-2000
-    A1 & A & B
+    subgraph 1970-1980
+    A1
     end
-
+    subgraph 1980-1990
+    A
+    end
+    subgraph 1990-2000
+    A2
+    end
     subgraph 2000-2010
     C
     end
-
     subgraph 2010-2020
     D & E & E1 & E2 & F & G & H & I
     end
-
     subgraph 2020-2030
     J & K & L & M & N & O & P & NP
     end     
