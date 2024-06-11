@@ -41,7 +41,7 @@ flowchart TD
     A --> B
     A1 --> A
     A1 --> I
-    A  --> A2["Hall & Russell (1991)"]:::anat
+    A  --> A2
     A --> D["Varshney et al.(2011)"]:::anat
     B --> D
     A2 --> D
