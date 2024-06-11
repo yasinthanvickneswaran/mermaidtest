@@ -10,7 +10,8 @@ flowchart TD
     subgraph 1970- -2000
     A1
     A
-    b
+    B
+    end
 
 
     E --> H["Fenyves et al. (2020)"]:::func
