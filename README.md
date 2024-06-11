@@ -4,7 +4,6 @@ flowchart TD
     classDef gene stroke:#0f0
     classDef es stroke:#00f
     classDef func stroke:#ee82ee
-    classDef dev stroke:#3cb371
 
     subgraph 1970-1980
     A1
@@ -30,7 +29,7 @@ flowchart TD
     E1["Serrano-Saiz et al. (2013)"]:::es --> H
     E2["Gendrel, Hobert & Atlas (2016)"] --> H
     O["Atanas et al. (2023)"]:::func
-    K["Witvliet et al. (2021)"]:::dev
+    K["Witvliet et al. (2021)"]:::anat
     E["Pereira et al. (2015)"]:::es --> F["Bentley et al. (2016)"]:::es
 
     C["Altun et al. (2009)"]:::gene --> L["Taylor et al. (2021)"]:::gene
