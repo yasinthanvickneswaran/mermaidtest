@@ -7,7 +7,7 @@ flowchart TD
 
 
     subgraph 1970-1980
-    A1[<a href='https://google.com' >Albertson & Thomson</a>]:::anat
+    A1[<a href='https://github.com/yasinthanvickneswaran/ConnectomeToolbox/blob/main/docs/Albertson_Thompson_1976.md' >Albertson & Thomson</a>]:::anat
     end
     subgraph 1980-1990
     A & B
