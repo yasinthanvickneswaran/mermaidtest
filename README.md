@@ -5,6 +5,7 @@ flowchart TD
     classDef es stroke:#00f
     classDef func stroke:#ee82ee
     classDef dev stroke:#3cb371
+    classDef db stroke:#6a5acd
 
     H["Fenyves et al. (2020)"]:::func --> O["Atanas et al. (2023)"]:::func
     O --> P["Randi et al. (2023)"]:::func    
@@ -24,6 +25,6 @@ flowchart TD
     A --> J["Brittin et al. (2021)"]:::anat
     A --> F
     D --> F
-    DB1["WormWiring"] --> E
+    DB1["WormWiring"]:::db --> E
 
 ```
