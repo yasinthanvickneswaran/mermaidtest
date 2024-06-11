@@ -5,8 +5,9 @@ flowchart TD
     classDef es stroke:#00f
     classDef func stroke:#ee82ee
 
+
     subgraph 1970-1980
-    A1
+    A1[<a href='https://google.com'>"Albertson & Thomson (1976)"</a>]:::anat
     end
     subgraph 1980-1990
     A & B
@@ -36,7 +37,7 @@ flowchart TD
     M --> N["Beets et al. (2023)"]:::gene
 
     A(["White et al. (1986)"]):::anat --> B["Durbin (1987)"]:::anat
-    A1["Albertson & Thomson (1976)"]:::anat --> A
+    A1 --> A
     A1 --> I
     A  --> A2["Hall & Russell (1991)"]:::anat
     A --> D["Varshney et al.(2011)"]:::anat
