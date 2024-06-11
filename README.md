@@ -15,7 +15,7 @@ flowchart TD
     L --> M["Yemini et al. (2021)"]:::gene
     M --> N["Beets et al. (2023)"]:::gene
 
-    A(("White et al. (1986)")):::anat --> B["Durbin (1987)"]:::anat
+    A(["White et al. (1986)"]):::anat --> B["Durbin (1987)"]:::anat
     classDef anatomical fill:#f93
     A --> D["Varshney et al.(2011)"]:::anat
     B --> D
