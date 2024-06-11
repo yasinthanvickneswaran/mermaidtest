@@ -1,11 +1,8 @@
-https://haoda-li.github.io/mkdocs-plotly-plugin/gallery/
-
-https://mermaid.js.org/syntax/timeline.html
-
 ```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
+  timeline
+    title History of C.Elegans Connectomics
+    1986 : White
+    2011 : Varshney
+    2019 : Cook
+    2021 : Witvliet
 ```
