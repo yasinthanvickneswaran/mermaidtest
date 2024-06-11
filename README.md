@@ -1,5 +1,9 @@
 ```mermaid
 flowchart TD
+    classDef anat stroke:#f00
+    classDef gene stroke:#0f0
+    classDef es stroke:#00f
+
     subgraph Functional
     H["Fenyves et al. (2020)"] --> O["Atanas et al. (2023)"]
     O --> P["Randi et al. (2023)"]
@@ -15,13 +19,13 @@ flowchart TD
     L --> M["Yemini et al. (2021)"]
     M --> N["Beets et al. (2023)"]
     end
-    A["White et al. (1986)"]:::anatomical --> B["Durbin (1987)"]:::anatomical
+    A["White et al. (1986)"]:::anat --> B["Durbin (1987)"]:::anat
     classDef anatomical fill:#f93
-    A --> D["Varshney et al.(2011)"]:::anatomical
+    A --> D["Varshney et al.(2011)"]:::anat
     B --> D
-    A --> G["Cook et al. (2019)"]:::anatomical
-    A --> I["Cook et al. (2020)"]:::anatomical
-    A --> J["Brittin et al. (2021)"]:::anatomical
+    A --> G["Cook et al. (2019)"]:::anat
+    A --> I["Cook et al. (2020)"]:::anat
+    A --> J["Brittin et al. (2021)"]:::anat
     A --> F
     D --> F
     subgraph Databases
