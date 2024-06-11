@@ -18,8 +18,9 @@ flowchart TD
     end
 
     subgraph 2000-2010
-    C
+    C[<a href='https://github.com/yasinthanvickneswaran/ConnectomeToolbox/blob/main/docs/Altun_2009.md' >Altun et al. 2009</a>]:::gene 
     end
+
     subgraph 2010-2020
     D & E & E1 & E2 & F & G & H & I
     end
@@ -34,7 +35,7 @@ flowchart TD
     K["Witvliet et al. (2021)"]:::anat
     E["Pereira et al. (2015)"]:::es --> F["Bentley et al. (2016)"]:::es
 
-    C["Altun et al. (2009)"]:::gene --> L["Taylor et al. (2021)"]:::gene
+    C --> L["Taylor et al. (2021)"]:::gene
     L --> M["Yemini et al. (2021)"]:::gene
     M --> N["Beets et al. (2023)"]:::gene
 
