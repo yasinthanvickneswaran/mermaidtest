@@ -36,6 +36,7 @@ flowchart TB
     d1 -->d2
     end
     subgraph Anatomical
-    D[White et al. (1986)"] --> E["Varshney et al.(2011)"] --> f["Cook et al. (2019)"]
+    D[White et al. (1986)"] --> E["Varshney et al.(2011)"]
+    E --> f["Cook et al. (2019)"]
     end
 ```
