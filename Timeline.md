@@ -1,7 +1,7 @@
 ```mermaid
 flowchart TD
     classDef anat fill:#ff6666
-    classDef gene fill:#4d9900
+    classDef gene fill:#85e085
     classDef es fill:#99bbff
     classDef func fill:#ff80ff
 
