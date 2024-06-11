@@ -5,7 +5,6 @@ flowchart TD
     classDef es stroke:#00f
     classDef func stroke:#ee82ee
     classDef dev stroke:#3cb371
-    classDef db stroke:#6a5acd
 
     subgraph 1970-1980
     A1
@@ -30,7 +29,6 @@ flowchart TD
     E --> H["Fenyves et al. (2020)"]:::func
     E1["Serrano-Saiz et al. (2013)"]:::es --> H
     E2["Gendrel, Hobert & Atlas (2016)"] --> H
-    DB2["CenGEN"]:::db --> H
     O["Atanas et al. (2023)"]:::func
     K["Witvliet et al. (2021)"]:::dev
     E["Pereira et al. (2015)"]:::es --> F["Bentley et al. (2016)"]:::es
@@ -51,7 +49,6 @@ flowchart TD
     A --> J["Brittin et al. (2021)"]:::anat
     A --> F
     D --> F
-    DB1["WormWiring"]:::db --> E
     A --> NP["Ripoll-Sanchez et al. (2023)"]:::es
     A1 --> NP
     F --> NP
