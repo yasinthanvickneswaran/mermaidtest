@@ -27,7 +27,7 @@ flowchart TD
 
     E --> H["Fenyves et al. (2020)"]:::func
     E1["Serrano-Saiz et al. (2013)"]:::es --> H
-    E2["Gendrel, Hobert & Atlas (2016)"] --> H
+    E2["Gendrel, Hobert & Atlas (2016)"]:::es --> H
     O["Atanas et al. (2023)"]:::func
     K["Witvliet et al. (2021)"]:::anat
     E["Pereira et al. (2015)"]:::es --> F["Bentley et al. (2016)"]:::es
