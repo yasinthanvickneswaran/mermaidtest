@@ -1,7 +1,7 @@
 ```mermaid
 %%{init: { 'logLevel': 'debug', 'theme': 'base', 'timeline': {'disableMulticolor': true}}}%%
   timeline
-    title History of C.Elegans Connectomics
+    title Timeline of C.Elegans Connectomics Data
     1986 : White
     2011 : Varshney
     2019 : Cook
