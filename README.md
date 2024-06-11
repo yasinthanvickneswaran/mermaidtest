@@ -24,7 +24,6 @@ flowchart TD
     A --> J["Brittin et al. (2021)"]:::anatomical
     A --> F
     D --> F
-    end
     subgraph Databases
     DB1["WormWiring"] --> E
     end
