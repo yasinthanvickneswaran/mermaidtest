@@ -11,7 +11,7 @@ flowchart TD
     A1
     end
     subgraph 1980-1990
-    A
+    A & B
     end
     subgraph 1990-2000
     A2
