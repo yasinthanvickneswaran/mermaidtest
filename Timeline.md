@@ -7,6 +7,7 @@ flowchart TD
 
 
     subgraph 1970-1980
+    style c1 fill: lightgray
     A1[<a href='https://github.com/yasinthanvickneswaran/ConnectomeToolbox/blob/main/docs/Albertson_Thompson_1976.md' >Albertson & Thomson 1976</a>]:::anat
     end
     subgraph 1980-1990
