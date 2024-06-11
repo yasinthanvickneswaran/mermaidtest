@@ -3,7 +3,7 @@ flowchart TD
     classDef anat fill:#ff6666
     classDef gene fill:#4d9900
     classDef es fill:#99bbff
-    classDef func fill:#cc00cc
+    classDef func fill:#ff80ff
 
 
     subgraph 1970-1980
