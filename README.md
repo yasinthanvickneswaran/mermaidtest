@@ -33,7 +33,7 @@ flowchart TD
     E["Pereira et al. (2015)"] --> F["Bentley et al. (2016)"]
     end
     subgraph Gene Expression
-    C["Altun et al. (2009)"] --> 
+    C["Altun et al. (2009)"] --> db
     end
     subgraph Anatomical
     A["White et al. (1986)"] --> B["Durbin (1987)"]
