@@ -36,7 +36,8 @@ flowchart TB
     d1 -->d2
     end
     subgraph Anatomical
-    e1
+    "White et al. (1986)" --> "Varshney et al.(2011)" --> "Cook et al. (2019)"
     end
-
+    Anatomical --> Developmental
+    
 ```
