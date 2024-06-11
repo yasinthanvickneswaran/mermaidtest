@@ -22,42 +22,39 @@ flowchart TD
     end
 
     subgraph 2010-2020
-    D & E & E1 & E2 & F & G & H & I
+    D[<a href='https://github.com/yasinthanvickneswaran/ConnectomeToolbox/blob/main/docs/Varshney_2011.md' >Varshney et al.2011</a>]:::anat & E[<a href='https://github.com/yasinthanvickneswaran/ConnectomeToolbox/blob/main/docs/Pereira_2015.md' >Pereira et al. 2015</a>]:::es & E1[<a href='https://github.com/yasinthanvickneswaran/ConnectomeToolbox/blob/main/docs/Serrano_2013.md' >Serrano-Saiz et al. 2013</a>]:::es  & E2["Gendrel, Hobert & Atlas (2016)"]:::es & F["Bentley et al. (2016)"]:::es & G["Cook et al. (2019)"]:::anat & H[<a href='https://github.com/yasinthanvickneswaran/ConnectomeToolbox/blob/main/docs/Fenyves_2020.md' >Fenyves et al.2020</a>]:::func & I["Cook et al. (2020)"]:::anat
     end
     subgraph 2020-2030
-    J & K & L & M & N & P & NP
+    J["Brittin et al. (2021)"]:::anat & K["Witvliet et al. (2021)"]:::anat & L["Taylor et al. (2021)"]:::gene & M["Yemini et al. (2021)"]:::gene & N["Beets et al. (2023)"]:::gene & P["Randi et al. (2023)"]:::func & NP["Ripoll-Sanchez et al. (2023)"]:::es
     end     
 
 
-    E --> H["Fenyves et al. (2020)"]:::func
-    E1["Serrano-Saiz et al. (2013)"]:::es --> H
-    E2["Gendrel, Hobert & Atlas (2016)"]:::es --> H
-    K["Witvliet et al. (2021)"]:::anat
-    E["Pereira et al. (2015)"]:::es --> F["Bentley et al. (2016)"]:::es
-
-    C --> L["Taylor et al. (2021)"]:::gene
-    L --> M["Yemini et al. (2021)"]:::gene
-    M --> N["Beets et al. (2023)"]:::gene
-
+    E --> H
+    E1 --> H
+    E2 --> H
+    E --> F
+    C --> L
+    L --> M
+    M --> N
     A --> B
     A1 --> A
     A1 --> I
     A  --> A2
-    A --> D["Varshney et al.(2011)"]:::anat
+    A --> D
     B --> D
     A2 --> D
-    A --> G["Cook et al. (2019)"]:::anat
-    A --> I["Cook et al. (2020)"]:::anat
-    A --> J["Brittin et al. (2021)"]:::anat
+    A --> G
+    A --> I
+    A --> J
     A --> F
     D --> F
-    A --> NP["Ripoll-Sanchez et al. (2023)"]:::es
+    A --> NP
     A1 --> NP
     F --> NP
     L --> NP
     K --> NP
     D --> NP
-    A --> P["Randi et al. (2023)"]:::func
+    A --> P
     L --> P
     N --> P
     K --> P
