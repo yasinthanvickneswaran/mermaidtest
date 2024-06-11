@@ -23,13 +23,20 @@
 ```mermaid
 flowchart TB
     c1-->a2
-    subgraph one
+    subgraph Gene Expression
     a1-->a2
     end
-    subgraph two
+    subgraph Extrasynaptic
     b1-->b2
     end
-    subgraph three
+    subgraph Anatomical
     c1-->c2
     end
+    subgraph Functional
+    d1 -->d2
+    end
+    subgraph Developmental
+    e1
+    end
+
 ```
