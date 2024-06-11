@@ -7,7 +7,7 @@ flowchart TD
     classDef dev stroke:#3cb371
     classDef db stroke:#6a5acd
 
-    subgraph 1970- -2000
+    subgraph 1970-2000
     A1
     A
     B
