@@ -25,7 +25,7 @@ flowchart TD
     c1-->a2
     subgraph Functional
     H["Fenyves et al. (2020)"] --> O["Atanas et al. (2023)"]
-    O --> ["Randi et al. (2023)"]
+    O --> P["Randi et al. (2023)"]
     end
     subgraph Developmental
     K["Witvliet et al. (2021)"]
