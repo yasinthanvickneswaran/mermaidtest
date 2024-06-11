@@ -11,9 +11,7 @@ flowchart TD
     subgraph Developmental
     K["Witvliet et al. (2021)"]
     end
-    subgraph Extrasynaptic
-    E["Pereira et al. (2015)"] --> F["Bentley et al. (2016)"]
-    end
+    E["Pereira et al. (2015)"]:::es --> F["Bentley et al. (2016)"]:::es
     subgraph Gene Expression
     C["Altun et al. (2009)"] --> L["Taylor et al. (2021)"]
     L --> M["Yemini et al. (2021)"]
