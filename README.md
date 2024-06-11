@@ -13,7 +13,7 @@ flowchart TD
     A[<a href='https://github.com/yasinthanvickneswaran/ConnectomeToolbox/blob/main/docs/White_1986.md' >White</a>]:::anat & B[<a href='https://github.com/yasinthanvickneswaran/ConnectomeToolbox/blob/main/docs/Durbin_1987.md' >Durbin</a>]:::anat
     end
     subgraph 1990-2000
-    A2[<a href='https://github.com/yasinthanvickneswaran/ConnectomeToolbox/blob/main/docs/Hall_1991.md' >Hall & Russell 1991</a>]:::anat
+    A2[<a href='https://github.com/yasinthanvickneswaran/ConnectomeToolbox/blob/main/docs/Hall_1991.md' >Hall & Russell</a>]:::anat
     end
     subgraph 2000-2010
     C
