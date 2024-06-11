@@ -16,7 +16,8 @@ flowchart TD
     M --> N["Beets et al. (2023)"]
     end
     subgraph Anatomical
-    A["White et al. (1986)"] --> B["Durbin (1987)"]
+    A["White et al. (1986)"]:::someclass --> B["Durbin (1987)"]
+    classDef someclass fill:#f96
     A --> D["Varshney et al.(2011)"]
     B --> D
     A --> G["Cook et al. (2019)"]
