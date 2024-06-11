@@ -1,13 +1,12 @@
 ```mermaid
 flowchart TD
-    classDef anat stroke:#f00
-    classDef gene stroke:#0f0
-    classDef es stroke:#00f
-    classDef func stroke:#ee82ee
+    classDef anat fill:#f00
+    classDef gene fill:#0f0
+    classDef es fill:#00f
+    classDef func fill:#ee82ee
 
 
     subgraph 1970-1980
-    style 1970-1980 fill: red
     A1[<a href='https://github.com/yasinthanvickneswaran/ConnectomeToolbox/blob/main/docs/Albertson_Thompson_1976.md' >Albertson & Thomson 1976</a>]:::anat
     end
     subgraph 1980-1990
