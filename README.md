@@ -8,10 +8,23 @@ flowchart TD
     classDef db stroke:#6a5acd
 
     subgraph 1970-2000
-    A1
-    A
-    B
+    A1 & A & B
     end
+
+    subgraph 2000-2010
+    C
+    end
+
+    subgraph 2010-2020
+    D
+    E
+    E1
+    E2
+    F
+    G
+    H
+    I
+    
 
 
     E --> H["Fenyves et al. (2020)"]:::func
