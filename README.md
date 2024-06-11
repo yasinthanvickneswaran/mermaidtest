@@ -22,6 +22,7 @@ flowchart TD
     A  --> A2["Hall & Russell (1991)"]:::anat
     A --> D["Varshney et al.(2011)"]:::anat
     B --> D
+    A2 --> D
     A --> G["Cook et al. (2019)"]:::anat
     A --> I["Cook et al. (2020)"]:::anat
     A --> J["Brittin et al. (2021)"]:::anat
