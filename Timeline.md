@@ -60,8 +60,5 @@ flowchart TD
     N --> P
     K --> P
     NP --> P
-    F --> P
-
-    
-    
+    F --> P    
 ```
